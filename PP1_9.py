@@ -2,22 +2,34 @@
 
 def q1(): 
   #Write Assignment code here
+  word=('"Hello World"')
+  print(word)
 
 
 def q2(): 
   #Write Assignment code here
+  word= input("Input a word: ")
+  word= word.lower()
+  print(word)
+  print(word.upper())
 
 
 def q3(): 
   #Write Assignment code here
+  word=input("Input a word that is at least 5 letters long: ")
+  print(word[2:4])
 
 
 def q4(): 
   #Write Assignment code here
+  word=input("Input a word: ")
+  print(word.index("o"))
 
 
 def q5(): 
   #Write Assignment code here
+  word=input("Input a word: ")
+  print(len(word))
 
 
 
